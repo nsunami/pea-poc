@@ -31,6 +31,8 @@
 - Properly fill in the `.env` file
 - Run the migrations and seeders: `artisan migrate --seed` (it will handle the bootstrapping and linking of the storage as well)
 - Run the asset build: `./buildHook.sh $PWD --continue`
+- Start `redis-server`
+- Run `php artisan serve`
 
 ## Storage
 
